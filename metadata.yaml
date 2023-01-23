@@ -1,5 +1,9 @@
 homepage: "https://zuko.io"
 documentation: "https://zuko.io/guides/install-zuko-tracking-tags-in-google-tag-manager"
 versions:
+  # Latest version
+  - sha: a8ad644c415dcc35fc743df0a75f057d12cb607d
+    changeNotes: Add required files.
+  # Older versions
   - sha: a6c7386831b1480f6480bcca4051e74f40d95098
     changeNotes: Initial release.
