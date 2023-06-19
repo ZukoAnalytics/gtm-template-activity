@@ -90,7 +90,7 @@ if (!data.hasOwnProperty('slug')) {
   data.gtmOnFailure();
 }
 
-let loaderUrl = loaderBaseUrl + '?slug=' + data.slug;
+let loaderUrl = loaderBaseUrl + '?slug=' + encodeUriComponent(data.slug);
 
 // Conditionally set the target selector
 if (data.targetSelector) {
@@ -171,6 +171,6 @@ scenarios: []
 
 ___NOTES___
 
-Created on 11/11/2022, 09:45:14
+Created on 19/06/2023, 07:15:06
 
 
